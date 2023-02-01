@@ -1,0 +1,141 @@
+esercizio 2
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    //questo e un commento in juvascript su  una riga 
+
+
+    /* questo e un commento su due righe 
+    */
+   function virus()
+{
+
+}
+    for(i=0;i<10;i++)
+
+alert(" paginea pericolosa ochhiooooooooo");
+{
+
+}
+</script>
+
+
+<body>
+</h1>
+lezione 1  javascript
+</h1>
+<!--
+questo e un commento html cioe questa riga  non viene 
+eseguita dal browser
+-->
+<button onclick="virus()"> test </button>
+</body>
+</html>
+
+
+esercizio 2 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+
+<script>
+function calculate() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var sum = num1 + num2;
+    alert("La somma dei due numeri è: " + sum);
+}
+
+
+</script>
+<body>
+    <h1>Javascript</h1>
+    <input type="text" id="num1">
+<input type="text" id="num2">
+<button onclick="calculate()">Calcola</button>
+
+   
+</body>
+</html>
+
+esercizio 3 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<script>
+
+function virus1()
+{
+    for(i=0;i<10;i++)
+    {
+        alert("2")
+        alert("4")
+        alert("6")
+        alert("8")
+        alert("10")
+        alert("12")
+        alert("14")
+        alert("16")
+        alert("18")
+        alert("20")
+    }
+    }
+
+
+</script>
+<body>
+    <h1>Javascript</h1>
+    <button onclick= "virus1()" >test</button>
+</body>
+</html>
+
+esercizio 4
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<script>
+
+function virus1()
+{
+    for(i=0;i<10;i++)
+    {
+        alert("1")
+        alert("2")
+        alert("3")
+        alert("4")
+        alert("5")
+    }
+    }
+
+
+</script>
+<body>
+    <h1>Javascript</h1>
+    <button onclick= "virus1()" >test</button>
+</body>
+</html>
